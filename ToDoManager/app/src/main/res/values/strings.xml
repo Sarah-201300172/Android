@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ToDoManager</string>
+    <string name="btn_text">Add a new todo item</string>
+    <string name="date_time"><![CDATA[Date & Time]]></string>
+    <string name="done">Done</string>
+    <string name="not_done">Not Done</string>
+    <string name="title">Title</string>
+    <string name="title_hint">Provide the title of the task</string>
+    <string name="status">Status</string>
+    <string name="low">Low</string>
+    <string name="priority">Priority</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="date_holder">-- / -- / ----</string>
+    <string name="choose_the_date">Choose the date</string>
+    <string name="time_holder">00 : 00 : 0000</string>
+    <string name="choose_the_time">Choose the Time</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+    <string name="time">Time:</string>
+    <string name="date">Date:</string>
+    <string name="priority_">Priority:</string>
+</resources>

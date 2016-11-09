@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="10dp"
+
+    tools:context="qa.edu.qu.cmps312.implicitexplicitpermissionsdemo.PlanetsActivity">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="78dp"
+        android:columnCount="3"
+        android:rowCount="4">
+
+        <ImageView
+            android:id="@+id/mercury"
+            android:layout_width="@dimen/image_scale"
+            android:layout_height="@dimen/image_scale"
+            android:onClick="displayFacts"
+            android:src="@drawable/mercury"
+
+            />
+
+        <ImageView
+            android:id="@+id/venus"
+            android:layout_width="@dimen/image_scale"
+            android:layout_height="@dimen/image_scale"
+            android:onClick="displayFacts"
+            android:src="@drawable/venus" />
+
+        <ImageView
+            android:id="@+id/earth"
+            android:layout_width="@dimen/image_scale"
+            android:layout_height="@dimen/image_scale"
+            android:onClick="displayFacts"
+            android:src="@drawable/earth" />
+
+        <ImageView
+            android:id="@+id/mars"
+
+            android:layout_width="@dimen/image_scale"
+            android:layout_height="@dimen/image_scale"
+            android:onClick="displayFacts"
+            android:src="@drawable/mars"
+
+            />
+
+        <ImageView
+            android:id="@+id/jupiter"
+
+            android:layout_width="@dimen/image_scale"
+            android:layout_height="@dimen/image_scale"
+            android:onClick="displayFacts"
+            android:src="@drawable/jupiter"
+
+            />
+
+        <ImageView
+            android:id="@+id/saturn"
+
+            android:layout_width="@dimen/image_scale"
+            android:layout_height="@dimen/image_scale"
+            android:onClick="displayFacts"
+            android:src="@drawable/saturn"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/uranus"
+
+            android:layout_width="@dimen/image_scale"
+            android:layout_height="@dimen/image_scale"
+            android:onClick="displayFacts"
+            android:src="@drawable/uranus"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/neptune"
+            android:layout_width="@dimen/image_scale"
+            android:layout_height="@dimen/image_scale"
+
+            android:onClick="displayFacts"
+            android:src="@drawable/neptune"
+
+            />
+
+
+        <ImageView
+
+
+            android:onClick="displayFacts"
+
+            />
+
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:background="@android:color/black"
+        android:text="@string/select_planet"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

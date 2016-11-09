@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">كتب للبيع</string>
+    <string name="chapters">الفصول : </string>
+    <string name="year">عام : </string>
+    <string name="name">اسم : </string>
+    <string name="the_holy_quran">القرآن الكريم</string>
+
+    <string-array name="chapters_array">
+        <item>١- الفاتحة</item>
+        <item>٢- البقرة</item>
+        <item>٣- آل عمران</item>
+        <item>٤- النساء</item>
+        <item>٥- المائدة</item>
+        <item>٦- الأتعام</item>
+    </string-array>
+
+    <string name="year1998">١٨٨٩</string>
+    <string name="chapters_value_chapters_value">فصل ـ قيمة فصل ـ قيمة </string>
+
+</resources>

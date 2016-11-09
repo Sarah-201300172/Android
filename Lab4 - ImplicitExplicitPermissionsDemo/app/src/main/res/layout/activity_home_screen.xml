@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home_sceen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context="qa.edu.qu.cmps312.implicitexplicitpermissionsdemo.HomeScreenActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/press_here"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:id="@+id/learn_solar_system_btn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="77dp"
+        android:alpha="1"
+        android:onClick="openPlanetActivity"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/press_here_to_exit"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:id="@+id/exit_app_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="exit"
+        android:alpha="1"
+        android:layout_marginBottom="64dp" />
+
+</RelativeLayout>

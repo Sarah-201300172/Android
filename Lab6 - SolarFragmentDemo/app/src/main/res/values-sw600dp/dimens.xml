@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TODO : declare a boolean named "isTable" and assign it a true value-->
+    <bool name="isTablet">true</bool>
+
+</resources>

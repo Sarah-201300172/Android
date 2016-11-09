@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="horizontal"
+    tools:context="qa.edu.qu.cmps312.fragmentdemo.PlanetsFactsDescActivity">
+
+
+
+        <!--TODO:  Declare a static fragment that uses the "PlanetListFragment" This fragment will be used to display the list_view on MULTI-PANE (Tablet) , Make the fragment ID "list_fragment"  -->
+
+        <fragment
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:name="qa.edu.qu.cmps312.fragmentdemo.PlanetListFragment"
+            android:id="@+id/list_fragment"/>
+
+        <FrameLayout
+            android:id="@+id/facts_fragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            tools:layout="@layout/fragment_planet_facts_layout">
+        </FrameLayout>
+
+
+
+</LinearLayout>

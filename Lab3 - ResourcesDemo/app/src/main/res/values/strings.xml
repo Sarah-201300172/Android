@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Books for Sale</string>
+    <string name="chapters">Chapters : </string>
+    <string name="year">Year : </string>
+    <string name="name">Name : </string>
+    <string name="the_holy_quran">THE HOLY QURAN</string>
+
+    <string-array name="chapters_array">
+        <item>1 - Al-Fatiha </item>
+        <item>2 - Al-Baqarah </item>
+        <item>3 - Al-Imran </item>
+        <item>4 - Al-Nisa </item>
+        <item>5 - Al-Maidah </item>
+        <item>6 - Al-Anaam </item>
+    </string-array>
+
+    <string name="year1998">1998</string>
+    <string name="chapters_value_chapters_value">Chapters_Value Chapters_Value </string>
+
+
+</resources>

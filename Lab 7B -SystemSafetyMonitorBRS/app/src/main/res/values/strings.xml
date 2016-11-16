@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">System Safety Monitor BRS</string>
+    <string name="broadcast_action">qa.edu.cmps312.safeToUse</string>
+    <string name="SAFE">safe</string>
+    <string name="battery_is_safe">Battery is safe</string>
+    <string name="open_another_app_action">openMyApp</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mission Control BRD</string>
+    <string name="SAFE">safe</string>
+    <string name="broadcast_action">qa.edu.cmps312.safeToUse</string>
+</resources>

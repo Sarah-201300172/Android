@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/userImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="40dp"
+        android:background="@drawable/opt_frame"
+        android:scaleType="fitXY"
+        android:src="@drawable/wall_paper"
+       />
+
+    <TextView
+        android:id="@+id/userName"
+        style="@style/Base.AlertDialog.AppCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Abdulahi Hassen"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+
+         />
+
+
+</LinearLayout>

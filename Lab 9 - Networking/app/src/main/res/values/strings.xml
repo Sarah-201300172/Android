@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Random Users</string>
+    <string name="get_in_xml_format">GET USER INFO \nIN \nXML FORMAT</string>
+    <string name="get_in_json_format">GET USER INFO \nIN \nJSON FORMAT</string>
+</resources>

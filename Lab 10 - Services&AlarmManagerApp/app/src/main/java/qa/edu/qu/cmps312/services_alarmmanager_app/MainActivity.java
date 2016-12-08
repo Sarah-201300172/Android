@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         public void onServiceConnected(ComponentName className,
                                        IBinder service) {
 
-            Log.i("TAG","ON CONNECTED");
+            Log.i("TAG", "ON CONNECTED");
             QatarAnthemService.LocalBinder binder = (QatarAnthemService.LocalBinder) service;
             mService = binder.getService();
             mBound = true;

@@ -35,7 +35,7 @@ public class QatarAnthemService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
-        mPlayer = MediaPlayer.create(this, R.raw.applause);
+        mPlayer = MediaPlayer.create(this, R.raw.qatar_national_anthem);
 
         if (null != mPlayer) {
 

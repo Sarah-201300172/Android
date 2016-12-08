@@ -20,19 +20,12 @@ public class ApplaudReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
 
 
-        Log.i("TAG","ONRECEIVE");
+        Log.i("TAG", "ONRECEIVE");
 
         MediaPlayer mPlayer = MediaPlayer.create(context, R.raw.applause);
 
-//        if (mPlayer.isPlaying()) {
-//
-//            mPlayer.seekTo(0);
-//
-//        } else {
 
-            mPlayer.start();
-
-       // }
+        mPlayer.start();
 
     }
 }

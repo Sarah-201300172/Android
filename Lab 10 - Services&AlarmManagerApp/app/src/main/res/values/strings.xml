@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Services_AlarmManager_App</string>
+    <string name="notif_title">Anthem Playing</string>
+    <string name="notif_txt">Click to open the app</string>
+</resources>

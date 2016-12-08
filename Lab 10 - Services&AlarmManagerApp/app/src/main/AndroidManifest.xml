@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="qa.edu.qu.cmps312.services_alarmmanager_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".QatarAnthemService"
+            android:enabled="true"></service>
+
+        <receiver android:name=".ApplaudReceiver" >
+            <intent-filter>
+                <action android:name="myCustomAction"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

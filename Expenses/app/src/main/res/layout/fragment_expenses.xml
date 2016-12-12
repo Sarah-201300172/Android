@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/oceanBlue"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/monthTV"
+        style="@style/textStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:text="November" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/progress_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/expensesLabel"
+            style="@style/labelStyle"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/expensesLabel" />
+
+        <TextView
+            android:id="@+id/expensesAmount"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1000"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/twenty_sp" />
+
+        <TextView
+            android:id="@+id/incomeLabel"
+            style="@style/labelStyle"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/incomeLabel" />
+
+        <TextView
+            android:id="@+id/incomeAmount"
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="15000"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="@dimen/twenty_sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/three_dp"
+        android:layout_margin="@dimen/ten_dp"
+        android:background="@color/btn_color" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/balanceLabel"
+            style="@style/labelStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/balanceLabel" />
+
+        <TextView
+            android:id="@+id/balanceAmount"
+            style="@style/labelStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="14000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/expensesLV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/ten_dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ Income"
+            android:layout_marginRight="@dimen/thirty_dp"
+            android:textStyle="bold"
+            android:background="@android:color/white"
+            android:paddingRight="@dimen/twenty_dp"
+            android:paddingLeft="@dimen/twenty_dp"
+            android:id="@+id/addIncomeBtn"
+            android:textSize="@dimen/seventeen_sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+ Expense"
+            android:textStyle="bold"
+            android:background="@android:color/white"
+            android:paddingRight="@dimen/twenty_dp"
+            android:paddingLeft="@dimen/twenty_dp"
+            android:textSize="@dimen/seventeen_sp"
+            android:id="@+id/addExpensesBtn"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

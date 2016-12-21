@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SystemSafetyMonitorBRS.iml" filepath="$PROJECT_DIR$/SystemSafetyMonitorBRS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 7B -SystemSafetyMonitorBRS.iml" filepath="$PROJECT_DIR$/Lab 7B -SystemSafetyMonitorBRS.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

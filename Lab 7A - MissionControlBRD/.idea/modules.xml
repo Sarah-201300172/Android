@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MissionControlBRD.iml" filepath="$PROJECT_DIR$/MissionControlBRD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 7A - MissionControlBRD.iml" filepath="$PROJECT_DIR$/Lab 7A - MissionControlBRD.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
